@@ -1,0 +1,6680 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Blueprint>
+	<meta>
+		<gameVersion>1.5.4085 rev545</gameVersion>
+		<modIds>
+			<li>zetrith.prepatcher</li>
+			<li>brrainz.harmony</li>
+			<li>bs.fishery</li>
+			<li>ludeon.rimworld</li>
+			<li>bs.performance</li>
+			<li>oskarpotocki.vanillafactionsexpanded.core</li>
+			<li>vanillaexpanded.vfepropsanddecor</li>
+			<li>sarg.alphapropsparks</li>
+			<li>fluffy.blueprints.fork</li>
+			<li>sarg.alphaprefabs</li>
+			<li>brrainz.cameraplus</li>
+			<li>dubwise.dubsperformanceanalyzer.steam</li>
+			<li>vanillaexpanded.vfearchitect</li>
+			<li>murmur.oocmovespeedboost</li>
+			<li>haplo.miscellaneous.mapgenfactionbase</li>
+			<li>neptimus7.progressrenderer</li>
+			<li>taranchuk.performanceoptimizer</li>
+			<li>krkr.rocketman</li>
+		</modIds>
+		<modSteamIds>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>867467808</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+		</modSteamIds>
+		<modNames>
+			<li>Prepatcher</li>
+			<li>Harmony</li>
+			<li>Fishery - Modding Library</li>
+			<li>Core</li>
+			<li>Performance Fish</li>
+			<li>Vanilla Expanded Framework</li>
+			<li>Vanilla Furniture Expanded - Props and Decor</li>
+			<li>Alpha Props - Parks and Gardens</li>
+			<li>Blueprints - Forked</li>
+			<li>Alpha Prefabs</li>
+			<li>Camera+</li>
+			<li>Dubs Performance Analyzer</li>
+			<li>Vanilla Furniture Expanded - Architect</li>
+			<li>Out of Combat Move Speed Boost</li>
+			<li>Misc. MapGen FactionBase</li>
+			<li>Progress Renderer</li>
+			<li>Performance Optimizer</li>
+			<li>RocketMan - Performance Mod</li>
+		</modNames>
+	</meta>
+	<Blueprint>
+		<BuildableThings>
+			<li>
+				<ThingDef>TrapSpike</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-17, 0, 2)</Position>
+			</li>
+			<li>
+				<ThingDef>TrapSpike</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-17, 0, 4)</Position>
+			</li>
+			<li>
+				<ThingDef>TrapSpike</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-16, 0, -1)</Position>
+			</li>
+			<li>
+				<ThingDef>TrapSpike</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-15, 0, -3)</Position>
+			</li>
+			<li>
+				<ThingDef>TrapSpike</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-14, 0, -8)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-14, 0, 1)</Position>
+				<Rotation>1</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-14, 0, 2)</Position>
+				<Rotation>1</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-14, 0, 3)</Position>
+				<Rotation>1</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-14, 0, 4)</Position>
+				<Rotation>1</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-14, 0, 5)</Position>
+				<Rotation>1</Rotation>
+			</li>
+			<li>
+				<ThingDef>TrapSpike</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-13, 0, -1)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-13, 0, 0)</Position>
+				<Rotation>1</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-13, 0, 1)</Position>
+				<Rotation>1</Rotation>
+			</li>
+			<li>
+				<ThingDef>Bedroll</ThingDef>
+				<Stuff>Cloth</Stuff>
+				<Position>(-13, 0, 2)</Position>
+			</li>
+			<li>
+				<ThingDef>AnimalSleepingBox</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-13, 0, 4)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-13, 0, 5)</Position>
+				<Rotation>1</Rotation>
+			</li>
+			<li>
+				<ThingDef>TrapSpike</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-13, 0, 7)</Position>
+			</li>
+			<li>
+				<ThingDef>TrapSpike</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-13, 0, 10)</Position>
+			</li>
+			<li>
+				<ThingDef>TrapSpike</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-12, 0, -16)</Position>
+			</li>
+			<li>
+				<ThingDef>TrapSpike</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-12, 0, -13)</Position>
+			</li>
+			<li>
+				<ThingDef>TrapSpike</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-12, 0, -11)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-12, 0, -7)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-12, 0, -6)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-12, 0, -5)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-12, 0, -4)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-12, 0, -3)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-12, 0, 0)</Position>
+				<Rotation>1</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-12, 0, 5)</Position>
+				<Rotation>1</Rotation>
+			</li>
+			<li>
+				<ThingDef>VFEArch_PicketFence</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-11, 0, -12)</Position>
+			</li>
+			<li>
+				<ThingDef>VFEArch_PicketFence</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-11, 0, -11)</Position>
+			</li>
+			<li>
+				<ThingDef>VFEArch_PicketFence</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-11, 0, -10)</Position>
+			</li>
+			<li>
+				<ThingDef>VFEArch_PicketFence</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-11, 0, -9)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-11, 0, -8)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-11, 0, -7)</Position>
+			</li>
+			<li>
+				<ThingDef>TorchLamp</ThingDef>
+				<Position>(-11, 0, -6)</Position>
+			</li>
+			<li>
+				<ThingDef>AnimalSleepingBox</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-11, 0, -4)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-11, 0, -3)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-11, 0, -2)</Position>
+			</li>
+			<li>
+				<ThingDef>VFEArch_PicketFence</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-11, 0, -1)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-11, 0, 0)</Position>
+				<Rotation>1</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-11, 0, 5)</Position>
+				<Rotation>1</Rotation>
+			</li>
+			<li>
+				<ThingDef>VFEArch_PicketFence</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-11, 0, 6)</Position>
+			</li>
+			<li>
+				<ThingDef>VFEArch_PicketFence</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-11, 0, 7)</Position>
+			</li>
+			<li>
+				<ThingDef>VFEArch_PicketFence</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-11, 0, 8)</Position>
+			</li>
+			<li>
+				<ThingDef>TrapSpike</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-11, 0, 9)</Position>
+			</li>
+			<li>
+				<ThingDef>TrapSpike</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-10, 0, -14)</Position>
+			</li>
+			<li>
+				<ThingDef>FenceGate</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-10, 0, -12)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-10, 0, -8)</Position>
+			</li>
+			<li>
+				<ThingDef>BedrollDouble</ThingDef>
+				<Stuff>Cloth</Stuff>
+				<Position>(-10, 0, -7)</Position>
+			</li>
+			<li>
+				<ThingDef>Table1x2c</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-9, 0, -3)</Position>
+				<Rotation>3</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-10, 0, -2)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-10, 0, 0)</Position>
+				<Rotation>1</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-10, 0, 1)</Position>
+				<Rotation>1</Rotation>
+			</li>
+			<li>
+				<ThingDef>PassiveCooler</ThingDef>
+				<Position>(-10, 0, 2)</Position>
+			</li>
+			<li>
+				<ThingDef>TorchLamp</ThingDef>
+				<Position>(-10, 0, 4)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-10, 0, 5)</Position>
+				<Rotation>1</Rotation>
+			</li>
+			<li>
+				<ThingDef>FenceGate</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-10, 0, 8)</Position>
+			</li>
+			<li>
+				<ThingDef>TrapSpike</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-9, 0, -16)</Position>
+			</li>
+			<li>
+				<ThingDef>VFEArch_PicketFence</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-9, 0, -12)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-9, 0, -8)</Position>
+			</li>
+			<li>
+				<ThingDef>Stool</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-9, 0, -4)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-9, 0, -2)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-9, 0, 1)</Position>
+				<Rotation>1</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-9, 0, 2)</Position>
+				<Rotation>1</Rotation>
+			</li>
+			<li>
+				<ThingDef>Door</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-9, 0, 3)</Position>
+				<Rotation>1</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-9, 0, 4)</Position>
+				<Rotation>1</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-9, 0, 5)</Position>
+				<Rotation>1</Rotation>
+			</li>
+			<li>
+				<ThingDef>VFEArch_PicketFence</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-9, 0, 8)</Position>
+			</li>
+			<li>
+				<ThingDef>TrapSpike</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-9, 0, 10)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-8, 0, -15)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-8, 0, -14)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-8, 0, -13)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-8, 0, -12)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-8, 0, -8)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-8, 0, -7)</Position>
+			</li>
+			<li>
+				<ThingDef>PassiveCooler</ThingDef>
+				<Position>(-8, 0, -6)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-8, 0, -3)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-8, 0, -2)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-8, 0, 7)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-8, 0, 8)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-8, 0, 9)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-8, 0, 10)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>TrapSpike</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-8, 0, 12)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-7, 0, -16)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-7, 0, -15)</Position>
+			</li>
+			<li>
+				<ThingDef>Shelf</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-7, 0, -13)</Position>
+				<Rotation>1</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-7, 0, -12)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-7, 0, -11)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-7, 0, -7)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-7, 0, -6)</Position>
+			</li>
+			<li>
+				<ThingDef>Door</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-7, 0, -5)</Position>
+				<Rotation>1</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-7, 0, -4)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-7, 0, -3)</Position>
+			</li>
+			<li>
+				<ThingDef>VFEPD_AP_SimpleParkBench_Functional</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-7, 0, 2)</Position>
+				<Rotation>1</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-7, 0, 6)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-7, 0, 7)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-7, 0, 10)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-7, 0, 11)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-6, 0, -16)</Position>
+			</li>
+			<li>
+				<ThingDef>Shelf</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-6, 0, -15)</Position>
+			</li>
+			<li>
+				<ThingDef>Shelf</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-5, 0, -12)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-6, 0, -11)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-6, 0, 6)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>PassiveCooler</ThingDef>
+				<Position>(-6, 0, 7)</Position>
+			</li>
+			<li>
+				<ThingDef>Bedroll</ThingDef>
+				<Stuff>Cloth</Stuff>
+				<Position>(-6, 0, 10)</Position>
+				<Rotation>1</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-6, 0, 11)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>TrapSpike</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-6, 0, 14)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-5, 0, -16)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-5, 0, -11)</Position>
+			</li>
+			<li>
+				<ThingDef>Door</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-5, 0, 6)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-5, 0, 11)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-4, 0, -16)</Position>
+			</li>
+			<li>
+				<ThingDef>ShelfSmall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-4, 0, -15)</Position>
+			</li>
+			<li>
+				<ThingDef>AP_WheelbarrowWithFlowers</ThingDef>
+				<Position>(-4, 0, -6)</Position>
+				<Rotation>1</Rotation>
+			</li>
+			<li>
+				<ThingDef>AP_WaterReed</ThingDef>
+				<Position>(-4, 0, -2)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-4, 0, 6)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>TorchLamp</ThingDef>
+				<Position>(-4, 0, 7)</Position>
+			</li>
+			<li>
+				<ThingDef>AnimalSleepingBox</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-4, 0, 10)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-4, 0, 11)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>VFEArch_PicketFence</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-4, 0, 12)</Position>
+			</li>
+			<li>
+				<ThingDef>VFEArch_PicketFence</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-4, 0, 13)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-3, 0, -16)</Position>
+			</li>
+			<li>
+				<ThingDef>Shelf</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-3, 0, -15)</Position>
+			</li>
+			<li>
+				<ThingDef>Shelf</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-2, 0, -12)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-3, 0, -11)</Position>
+			</li>
+			<li>
+				<ThingDef>AP_WaterReed</ThingDef>
+				<Position>(-3, 0, -3)</Position>
+			</li>
+			<li>
+				<ThingDef>AP_WaterReed</ThingDef>
+				<Position>(-3, 0, -2)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-3, 0, 6)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-3, 0, 7)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-3, 0, 8)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-3, 0, 9)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-3, 0, 10)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-3, 0, 11)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>VFEArch_PicketFence</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-3, 0, 13)</Position>
+			</li>
+			<li>
+				<ThingDef>TrapSpike</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-3, 0, 14)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-2, 0, -16)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-2, 0, -11)</Position>
+			</li>
+			<li>
+				<ThingDef>AP_WaterReed</ThingDef>
+				<Position>(-2, 0, -3)</Position>
+			</li>
+			<li>
+				<ThingDef>AP_WaterLilyD</ThingDef>
+				<Position>(-2, 0, 0)</Position>
+			</li>
+			<li>
+				<ThingDef>FenceGate</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-2, 0, 13)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-1, 0, -16)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-1, 0, -15)</Position>
+			</li>
+			<li>
+				<ThingDef>Shelf</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-1, 0, -14)</Position>
+				<Rotation>3</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-1, 0, -12)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-1, 0, -11)</Position>
+			</li>
+			<li>
+				<ThingDef>AP_WaterReed</ThingDef>
+				<Position>(-1, 0, -4)</Position>
+			</li>
+			<li>
+				<ThingDef>AP_WaterReed</ThingDef>
+				<Position>(-1, 0, -3)</Position>
+			</li>
+			<li>
+				<ThingDef>AP_WaterLilyC</ThingDef>
+				<Position>(-1, 0, 2)</Position>
+			</li>
+			<li>
+				<ThingDef>AP_TroughWithFlowersA</ThingDef>
+				<Position>(-1, 0, 7)</Position>
+			</li>
+			<li>
+				<ThingDef>AP_PlanterShelvesC</ThingDef>
+				<Position>(0, 0, 8)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>VFEArch_PicketFence</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-1, 0, 13)</Position>
+			</li>
+			<li>
+				<ThingDef>TrapSpike</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(-1, 0, 16)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(0, 0, -15)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(0, 0, -14)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(0, 0, -13)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(0, 0, -12)</Position>
+			</li>
+			<li>
+				<ThingDef>AP_WaterReed</ThingDef>
+				<Position>(0, 0, -4)</Position>
+			</li>
+			<li>
+				<ThingDef>AP_SubmergedLog</ThingDef>
+				<Position>(1, 0, 0)</Position>
+			</li>
+			<li>
+				<ThingDef>VFEPD_AP_WateringCan</ThingDef>
+				<Position>(0, 0, 7)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(0, 0, 11)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(0, 0, 12)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(0, 0, 13)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(0, 0, 14)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(0, 0, 15)</Position>
+			</li>
+			<li>
+				<ThingDef>TrapSpike</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(1, 0, -15)</Position>
+			</li>
+			<li>
+				<ThingDef>VFEArch_PicketFence</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(1, 0, -12)</Position>
+			</li>
+			<li>
+				<ThingDef>VFEPD_AP_NarrowTrellis</ThingDef>
+				<Position>(1, 0, -9)</Position>
+			</li>
+			<li>
+				<ThingDef>VFEPD_AP_NarrowTrellis_Roses</ThingDef>
+				<Position>(1, 0, -9)</Position>
+			</li>
+			<li>
+				<ThingDef>AP_OverheadTrellis</ThingDef>
+				<Position>(2, 0, -7)</Position>
+			</li>
+			<li>
+				<ThingDef>VFEPD_AP_NarrowTrellis</ThingDef>
+				<Position>(1, 0, -6)</Position>
+			</li>
+			<li>
+				<ThingDef>VFEPD_AP_NarrowTrellis_Roses</ThingDef>
+				<Position>(1, 0, -6)</Position>
+			</li>
+			<li>
+				<ThingDef>AP_WaterLilyF</ThingDef>
+				<Position>(1, 0, -1)</Position>
+			</li>
+			<li>
+				<ThingDef>AP_TroughWithFlowersC</ThingDef>
+				<Position>(1, 0, 7)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(1, 0, 10)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(1, 0, 11)</Position>
+			</li>
+			<li>
+				<ThingDef>TorchLamp</ThingDef>
+				<Position>(1, 0, 12)</Position>
+			</li>
+			<li>
+				<ThingDef>AnimalSleepingBox</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(1, 0, 14)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(1, 0, 15)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(1, 0, 16)</Position>
+			</li>
+			<li>
+				<ThingDef>TrapSpike</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(1, 0, 17)</Position>
+			</li>
+			<li>
+				<ThingDef>TrapSpike</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(2, 0, -13)</Position>
+			</li>
+			<li>
+				<ThingDef>FenceGate</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(2, 0, -12)</Position>
+			</li>
+			<li>
+				<ThingDef>AP_TroughWithFlowersA</ThingDef>
+				<Position>(2, 0, 7)</Position>
+			</li>
+			<li>
+				<ThingDef>AP_PlanterShelvesD</ThingDef>
+				<Position>(3, 0, 8)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(2, 0, 10)</Position>
+			</li>
+			<li>
+				<ThingDef>BedrollDouble</ThingDef>
+				<Stuff>Cloth</Stuff>
+				<Position>(2, 0, 11)</Position>
+			</li>
+			<li>
+				<ThingDef>Table1x2c</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(3, 0, 15)</Position>
+				<Rotation>3</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(2, 0, 16)</Position>
+			</li>
+			<li>
+				<ThingDef>VFEArch_PicketFence</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(3, 0, -12)</Position>
+			</li>
+			<li>
+				<ThingDef>AP_WaterLilyA</ThingDef>
+				<Position>(3, 0, 2)</Position>
+			</li>
+			<li>
+				<ThingDef>AP_WaterReed</ThingDef>
+				<Position>(3, 0, 5)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(3, 0, 10)</Position>
+			</li>
+			<li>
+				<ThingDef>Stool</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(3, 0, 14)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(3, 0, 16)</Position>
+			</li>
+			<li>
+				<ThingDef>TrapSpike</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(4, 0, -14)</Position>
+			</li>
+			<li>
+				<ThingDef>VFEArch_PicketFence</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(4, 0, -12)</Position>
+			</li>
+			<li>
+				<ThingDef>VFEPD_AP_NarrowTrellis</ThingDef>
+				<Position>(4, 0, -9)</Position>
+			</li>
+			<li>
+				<ThingDef>VFEPD_AP_NarrowTrellis_Roses</ThingDef>
+				<Position>(4, 0, -9)</Position>
+			</li>
+			<li>
+				<ThingDef>VFEPD_AP_NarrowTrellis</ThingDef>
+				<Position>(4, 0, -6)</Position>
+			</li>
+			<li>
+				<ThingDef>VFEPD_AP_NarrowTrellis_Roses</ThingDef>
+				<Position>(4, 0, -6)</Position>
+			</li>
+			<li>
+				<ThingDef>AP_WaterLilyB</ThingDef>
+				<Position>(4, 0, 0)</Position>
+			</li>
+			<li>
+				<ThingDef>AP_WaterReed</ThingDef>
+				<Position>(4, 0, 4)</Position>
+			</li>
+			<li>
+				<ThingDef>AP_WaterReed</ThingDef>
+				<Position>(4, 0, 5)</Position>
+			</li>
+			<li>
+				<ThingDef>AP_TroughWithFlowersB</ThingDef>
+				<Position>(4, 0, 7)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(4, 0, 10)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(4, 0, 11)</Position>
+			</li>
+			<li>
+				<ThingDef>PassiveCooler</ThingDef>
+				<Position>(4, 0, 12)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(4, 0, 15)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(4, 0, 16)</Position>
+			</li>
+			<li>
+				<ThingDef>TrapSpike</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(4, 0, 17)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(5, 0, -13)</Position>
+				<Rotation>3</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(5, 0, -12)</Position>
+				<Rotation>3</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(5, 0, -11)</Position>
+				<Rotation>3</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(5, 0, -10)</Position>
+				<Rotation>3</Rotation>
+			</li>
+			<li>
+				<ThingDef>VFEPD_AP_SimpleParkBench_Functional</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(5, 0, -3)</Position>
+			</li>
+			<li>
+				<ThingDef>VFEPD_AP_Pier</ThingDef>
+				<Position>(7, 0, 0)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>AP_WaterReed</ThingDef>
+				<Position>(5, 0, 4)</Position>
+			</li>
+			<li>
+				<ThingDef>AP_WaterReed</ThingDef>
+				<Position>(5, 0, 5)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(5, 0, 11)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(5, 0, 12)</Position>
+			</li>
+			<li>
+				<ThingDef>Door</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(5, 0, 13)</Position>
+				<Rotation>1</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(5, 0, 14)</Position>
+			</li>
+			<li>
+				<ThingDef>TrapSpike</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(5, 0, 15)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(6, 0, -14)</Position>
+				<Rotation>3</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(6, 0, -13)</Position>
+				<Rotation>3</Rotation>
+			</li>
+			<li>
+				<ThingDef>Table1x2c</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(6, 0, -11)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(6, 0, -10)</Position>
+				<Rotation>3</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(6, 0, -9)</Position>
+				<Rotation>3</Rotation>
+			</li>
+			<li>
+				<ThingDef>AP_WaterReed</ThingDef>
+				<Position>(6, 0, 3)</Position>
+			</li>
+			<li>
+				<ThingDef>AP_WaterReed</ThingDef>
+				<Position>(6, 0, 4)</Position>
+			</li>
+			<li>
+				<ThingDef>VFEArch_PicketFence</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(6, 0, 14)</Position>
+			</li>
+			<li>
+				<ThingDef>TrapSpike</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(7, 0, -15)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(7, 0, -14)</Position>
+				<Rotation>3</Rotation>
+			</li>
+			<li>
+				<ThingDef>AnimalSleepingBox</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(7, 0, -13)</Position>
+			</li>
+			<li>
+				<ThingDef>Stool</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(7, 0, -11)</Position>
+				<Rotation>1</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(7, 0, -9)</Position>
+				<Rotation>3</Rotation>
+			</li>
+			<li>
+				<ThingDef>VFEPD_AP_SimpleParkBench_Functional</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(7, 0, -2)</Position>
+			</li>
+			<li>
+				<ThingDef>AP_WaterReed</ThingDef>
+				<Position>(7, 0, 3)</Position>
+			</li>
+			<li>
+				<ThingDef>AP_WaterReed</ThingDef>
+				<Position>(7, 0, 4)</Position>
+			</li>
+			<li>
+				<ThingDef>VFEArch_PicketFence</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(7, 0, 14)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(8, 0, -14)</Position>
+				<Rotation>3</Rotation>
+			</li>
+			<li>
+				<ThingDef>Door</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(8, 0, -9)</Position>
+			</li>
+			<li>
+				<ThingDef>FenceGate</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(8, 0, 14)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(9, 0, -14)</Position>
+				<Rotation>3</Rotation>
+			</li>
+			<li>
+				<ThingDef>TorchLamp</ThingDef>
+				<Position>(9, 0, -13)</Position>
+			</li>
+			<li>
+				<ThingDef>BedrollDouble</ThingDef>
+				<Stuff>Cloth</Stuff>
+				<Position>(10, 0, -12)</Position>
+				<Rotation>3</Rotation>
+			</li>
+			<li>
+				<ThingDef>PassiveCooler</ThingDef>
+				<Position>(9, 0, -10)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(9, 0, -9)</Position>
+				<Rotation>3</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(9, 0, 4)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(9, 0, 5)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>Door</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(9, 0, 6)</Position>
+				<Rotation>1</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(9, 0, 7)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(9, 0, 8)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>VFEArch_PicketFence</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(9, 0, 14)</Position>
+			</li>
+			<li>
+				<ThingDef>TrapSpike</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(9, 0, 15)</Position>
+			</li>
+			<li>
+				<ThingDef>TrapSpike</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(10, 0, -15)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(10, 0, -14)</Position>
+				<Rotation>3</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(10, 0, -13)</Position>
+				<Rotation>3</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(10, 0, -10)</Position>
+				<Rotation>3</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(10, 0, -9)</Position>
+				<Rotation>3</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(10, 0, -7)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(10, 0, -6)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>Door</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(10, 0, -5)</Position>
+				<Rotation>1</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(10, 0, -4)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(10, 0, -3)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(10, 0, 3)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(10, 0, 4)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>PassiveCooler</ThingDef>
+				<Position>(10, 0, 7)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(10, 0, 8)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(10, 0, 9)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>TrapSpike</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(10, 0, 13)</Position>
+			</li>
+			<li>
+				<ThingDef>VFEArch_PicketFence</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(10, 0, 14)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(11, 0, -13)</Position>
+				<Rotation>3</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(11, 0, -12)</Position>
+				<Rotation>3</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(11, 0, -11)</Position>
+				<Rotation>3</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(11, 0, -10)</Position>
+				<Rotation>3</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(11, 0, -8)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(11, 0, -7)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>PassiveCooler</ThingDef>
+				<Position>(11, 0, -4)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(11, 0, -3)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(11, 0, -2)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(11, 0, 3)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>Table1x2c</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(11, 0, 4)</Position>
+				<Rotation>1</Rotation>
+			</li>
+			<li>
+				<ThingDef>Stool</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(11, 0, 5)</Position>
+			</li>
+			<li>
+				<ThingDef>BedrollDouble</ThingDef>
+				<Stuff>Cloth</Stuff>
+				<Position>(12, 0, 8)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(11, 0, 9)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>VFEArch_PicketFence</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(11, 0, 10)</Position>
+			</li>
+			<li>
+				<ThingDef>VFEArch_PicketFence</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(11, 0, 11)</Position>
+			</li>
+			<li>
+				<ThingDef>VFEArch_PicketFence</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(11, 0, 12)</Position>
+			</li>
+			<li>
+				<ThingDef>VFEArch_PicketFence</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(11, 0, 13)</Position>
+			</li>
+			<li>
+				<ThingDef>VFEArch_PicketFence</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(11, 0, 14)</Position>
+			</li>
+			<li>
+				<ThingDef>VFEArch_PicketFence</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(12, 0, -10)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(12, 0, -8)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>Table1x2c</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(12, 0, -7)</Position>
+				<Rotation>1</Rotation>
+			</li>
+			<li>
+				<ThingDef>Stool</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(12, 0, -6)</Position>
+			</li>
+			<li>
+				<ThingDef>BedrollDouble</ThingDef>
+				<Stuff>Cloth</Stuff>
+				<Position>(13, 0, -3)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(12, 0, -2)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(12, 0, 3)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(12, 0, 9)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>TrapSpike</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(12, 0, 13)</Position>
+			</li>
+			<li>
+				<ThingDef>TrapSpike</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(13, 0, -13)</Position>
+			</li>
+			<li>
+				<ThingDef>VFEArch_PicketFence</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(13, 0, -10)</Position>
+			</li>
+			<li>
+				<ThingDef>VFEArch_PicketFence</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(13, 0, -9)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(13, 0, -8)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(13, 0, -2)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>VFEArch_PicketFence</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(13, 0, -1)</Position>
+			</li>
+			<li>
+				<ThingDef>FenceGate</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(13, 0, 0)</Position>
+				<Rotation>1</Rotation>
+			</li>
+			<li>
+				<ThingDef>VFEArch_PicketFence</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(13, 0, 1)</Position>
+			</li>
+			<li>
+				<ThingDef>VFEArch_PicketFence</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(13, 0, 2)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(13, 0, 3)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(13, 0, 4)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>AnimalSleepingBox</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(13, 0, 5)</Position>
+			</li>
+			<li>
+				<ThingDef>TorchLamp</ThingDef>
+				<Position>(13, 0, 7)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(13, 0, 8)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(13, 0, 9)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>TrapSpike</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(13, 0, 11)</Position>
+			</li>
+			<li>
+				<ThingDef>TrapSpike</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(14, 0, -10)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(14, 0, -8)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(14, 0, -7)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>AnimalSleepingBox</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(14, 0, -6)</Position>
+			</li>
+			<li>
+				<ThingDef>TorchLamp</ThingDef>
+				<Position>(14, 0, -4)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(14, 0, -3)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(14, 0, -2)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>TrapSpike</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(14, 0, -1)</Position>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(14, 0, 4)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(14, 0, 5)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(14, 0, 6)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(14, 0, 7)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(14, 0, 8)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(15, 0, -7)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(15, 0, -6)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(15, 0, -5)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(15, 0, -4)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>Wall</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(15, 0, -3)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>TrapSpike</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(15, 0, 2)</Position>
+			</li>
+			<li>
+				<ThingDef>TrapSpike</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(15, 0, 6)</Position>
+			</li>
+			<li>
+				<ThingDef>TrapSpike</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(15, 0, 8)</Position>
+			</li>
+			<li>
+				<ThingDef>TrapSpike</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(16, 0, -8)</Position>
+			</li>
+			<li>
+				<ThingDef>TrapSpike</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(16, 0, -5)</Position>
+			</li>
+			<li>
+				<ThingDef>TrapSpike</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(16, 0, -1)</Position>
+			</li>
+			<li>
+				<ThingDef>TrapSpike</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(17, 0, -3)</Position>
+			</li>
+			<li>
+				<ThingDef>TrapSpike</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(17, 0, 1)</Position>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-23, 0, -10)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-23, 0, -9)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-22, 0, -10)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-22, 0, -9)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-22, 0, -8)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-22, 0, -7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-21, 0, -10)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-21, 0, -9)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-21, 0, -8)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-21, 0, -7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-21, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-21, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-21, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-21, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-20, 0, -10)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-20, 0, -9)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-20, 0, -8)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-20, 0, -7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-20, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-20, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-20, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-20, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-19, 0, -10)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-19, 0, -9)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-19, 0, -8)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-19, 0, -7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-19, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-19, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-19, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-19, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-19, 0, 0)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-19, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-18, 0, -10)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-18, 0, -9)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-18, 0, -8)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-18, 0, -7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-18, 0, -6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-18, 0, -5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-18, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-18, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-18, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-18, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-18, 0, 0)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-18, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-18, 0, 2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-17, 0, -7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-17, 0, -6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-17, 0, -5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-17, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-17, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-17, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-17, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-17, 0, 0)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-17, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-17, 0, 2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-17, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-17, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-16, 0, -7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-16, 0, -6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-16, 0, -5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-16, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-16, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-16, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-16, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-16, 0, 0)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-16, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-16, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-16, 0, 5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-16, 0, 6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-16, 0, 7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-15, 0, -6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-15, 0, -5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-15, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-15, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-15, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-15, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-15, 0, 0)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-15, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-15, 0, 2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-15, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-15, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-15, 0, 5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-15, 0, 6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-15, 0, 7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-14, 0, -6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-14, 0, -5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-14, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-14, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-14, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-14, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-14, 0, 0)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-14, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-14, 0, 2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-14, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-14, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-14, 0, 5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-14, 0, 6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-14, 0, 7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-14, 0, 8)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-14, 0, 9)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-13, 0, -9)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-13, 0, -8)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-13, 0, -7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-13, 0, -6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-13, 0, -5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-13, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-13, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-13, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-13, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-13, 0, 0)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-13, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-13, 0, 2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-13, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-13, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-13, 0, 5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-13, 0, 6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-13, 0, 7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-13, 0, 8)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-13, 0, 9)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-13, 0, 10)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-13, 0, 11)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-12, 0, -10)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-12, 0, -9)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-12, 0, -8)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-12, 0, -7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-12, 0, -6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-12, 0, -5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-12, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-12, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-12, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-12, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-12, 0, 0)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-12, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-12, 0, 2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-12, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-12, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-12, 0, 5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-12, 0, 6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-12, 0, 7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-12, 0, 8)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-12, 0, 9)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-12, 0, 10)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-12, 0, 11)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-11, 0, -13)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-11, 0, -12)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-11, 0, -11)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-11, 0, -10)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-11, 0, -9)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-11, 0, -8)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-11, 0, -7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-11, 0, -6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-11, 0, -5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-11, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-11, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-11, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-11, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-11, 0, 0)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-11, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-11, 0, 2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-11, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-11, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-11, 0, 5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-11, 0, 6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-11, 0, 7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-11, 0, 8)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-11, 0, 9)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-11, 0, 10)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-11, 0, 11)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-10, 0, -14)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-10, 0, -13)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-10, 0, -12)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-10, 0, -11)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-10, 0, -10)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-10, 0, -9)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-10, 0, -8)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-10, 0, -7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-10, 0, -6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-10, 0, -5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-10, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-10, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-10, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-10, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-10, 0, 0)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-10, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-10, 0, 2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-10, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-10, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-10, 0, 5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-10, 0, 6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-10, 0, 7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-10, 0, 8)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-10, 0, 9)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-10, 0, 10)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-10, 0, 11)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-9, 0, -14)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-9, 0, -13)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-9, 0, -12)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-9, 0, -11)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-9, 0, -10)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-9, 0, -9)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-9, 0, -8)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-9, 0, -7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-9, 0, -6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-9, 0, -5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-9, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-9, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-9, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-9, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-9, 0, 0)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-9, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-9, 0, 2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-9, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-9, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-9, 0, 5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-9, 0, 6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-9, 0, 7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-9, 0, 8)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-9, 0, 9)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-9, 0, 10)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-9, 0, 11)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-8, 0, -11)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-8, 0, -10)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-8, 0, -9)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-8, 0, -8)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-8, 0, -7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-8, 0, -6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-8, 0, -5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-8, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-8, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-8, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-8, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-8, 0, 0)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-8, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-8, 0, 2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-8, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-8, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-8, 0, 5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-8, 0, 6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-8, 0, 7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-8, 0, 8)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-8, 0, 9)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-8, 0, 10)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-8, 0, 11)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-7, 0, -15)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-7, 0, -14)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-7, 0, -13)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-7, 0, -11)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-7, 0, -10)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-7, 0, -9)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-7, 0, -8)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-7, 0, -7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-7, 0, -6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-7, 0, -5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-7, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-7, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-7, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-7, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-7, 0, 0)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-7, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-7, 0, 2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-7, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-7, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-7, 0, 5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-7, 0, 6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-7, 0, 7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-7, 0, 8)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-7, 0, 9)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-7, 0, 10)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-7, 0, 11)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-6, 0, -15)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-6, 0, -14)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-6, 0, -13)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-6, 0, -12)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-6, 0, -10)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-6, 0, -9)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-6, 0, -8)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-6, 0, -7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-6, 0, -6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-6, 0, -5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-6, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-6, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-6, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-6, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(-6, 0, 0)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(-6, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(-6, 0, 2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(-6, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-6, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-6, 0, 5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-6, 0, 6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-6, 0, 7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-6, 0, 8)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-6, 0, 9)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-6, 0, 10)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-6, 0, 11)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-6, 0, 12)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-5, 0, -15)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-5, 0, -14)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-5, 0, -13)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-5, 0, -12)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-5, 0, -10)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-5, 0, -9)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-5, 0, -8)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-5, 0, -7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-5, 0, -6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-5, 0, -5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-5, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-5, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-5, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(-5, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(-5, 0, 0)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(-5, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(-5, 0, 2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(-5, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(-5, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-5, 0, 5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-5, 0, 6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-5, 0, 7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-5, 0, 8)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-5, 0, 9)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-5, 0, 10)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-5, 0, 11)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-5, 0, 12)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-5, 0, 13)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-4, 0, -15)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-4, 0, -14)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-4, 0, -13)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-4, 0, -12)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-4, 0, -11)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-4, 0, -10)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-4, 0, -9)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-4, 0, -8)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-4, 0, -7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-4, 0, -6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-4, 0, -5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-4, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-4, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(-4, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(-4, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(-4, 0, 0)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(-4, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(-4, 0, 2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(-4, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(-4, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-4, 0, 5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-4, 0, 6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-4, 0, 7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-4, 0, 8)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-4, 0, 9)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-4, 0, 10)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-4, 0, 11)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-4, 0, 12)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-4, 0, 13)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-4, 0, 14)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-3, 0, -15)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-3, 0, -14)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-3, 0, -13)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-3, 0, -12)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-3, 0, -10)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-3, 0, -9)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-3, 0, -8)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-3, 0, -7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-3, 0, -6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-3, 0, -5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-3, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(-3, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(-3, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(-3, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(-3, 0, 0)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(-3, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(-3, 0, 2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(-3, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(-3, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-3, 0, 5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-3, 0, 6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-3, 0, 7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-3, 0, 8)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-3, 0, 9)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-3, 0, 10)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-3, 0, 11)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-3, 0, 12)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-3, 0, 13)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-3, 0, 14)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-2, 0, -15)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-2, 0, -14)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-2, 0, -13)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-2, 0, -12)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-2, 0, -10)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-2, 0, -9)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-2, 0, -8)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-2, 0, -7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-2, 0, -6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-2, 0, -5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-2, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(-2, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(-2, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(-2, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(-2, 0, 0)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(-2, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(-2, 0, 2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(-2, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(-2, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(-2, 0, 5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-2, 0, 6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-2, 0, 7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-2, 0, 8)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-2, 0, 9)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-2, 0, 10)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-2, 0, 11)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-2, 0, 12)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-2, 0, 13)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-2, 0, 14)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-2, 0, 15)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-1, 0, -15)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-1, 0, -14)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(-1, 0, -13)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-1, 0, -10)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-1, 0, -9)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-1, 0, -8)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-1, 0, -7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-1, 0, -6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-1, 0, -5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(-1, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(-1, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(-1, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(-1, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(-1, 0, 0)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(-1, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(-1, 0, 2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(-1, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(-1, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(-1, 0, 5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(-1, 0, 6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-1, 0, 7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-1, 0, 8)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-1, 0, 9)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-1, 0, 10)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-1, 0, 11)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-1, 0, 12)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-1, 0, 13)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-1, 0, 14)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(-1, 0, 15)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(0, 0, -16)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(0, 0, -14)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(0, 0, -13)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(0, 0, -12)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(0, 0, -11)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(0, 0, -10)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(0, 0, -9)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(0, 0, -8)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(0, 0, -7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(0, 0, -6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(0, 0, -5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(0, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(0, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(0, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(0, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(0, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(0, 0, 2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(0, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(0, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(0, 0, 5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(0, 0, 6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(0, 0, 7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(0, 0, 8)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(0, 0, 9)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(0, 0, 10)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(0, 0, 11)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(0, 0, 12)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(1, 0, -17)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(1, 0, -16)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(1, 0, -15)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(1, 0, -14)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(1, 0, -13)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(1, 0, -12)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(1, 0, -11)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(1, 0, -10)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(1, 0, -9)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(1, 0, -8)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(1, 0, -7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(1, 0, -6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(1, 0, -5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(1, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(1, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(1, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(1, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(1, 0, 0)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(1, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(1, 0, 2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(1, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(1, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(1, 0, 5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(1, 0, 6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(1, 0, 7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(1, 0, 8)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(1, 0, 9)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(1, 0, 10)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(1, 0, 11)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(1, 0, 12)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(1, 0, 13)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(1, 0, 14)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(2, 0, -17)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(2, 0, -16)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(2, 0, -15)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(2, 0, -14)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(2, 0, -13)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(2, 0, -12)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(2, 0, -11)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(2, 0, -10)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(2, 0, -9)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(2, 0, -8)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(2, 0, -7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(2, 0, -6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(2, 0, -5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(2, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(2, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(2, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(2, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(2, 0, 0)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(2, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(2, 0, 2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(2, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(2, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(2, 0, 5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(2, 0, 6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(2, 0, 7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(2, 0, 8)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(2, 0, 9)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(2, 0, 10)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(2, 0, 11)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(2, 0, 12)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(2, 0, 13)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(2, 0, 14)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(2, 0, 15)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(3, 0, -16)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(3, 0, -15)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(3, 0, -14)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(3, 0, -13)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(3, 0, -12)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(3, 0, -11)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(3, 0, -10)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(3, 0, -9)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(3, 0, -8)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(3, 0, -7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(3, 0, -6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(3, 0, -5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(3, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(3, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(3, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(3, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(3, 0, 0)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(3, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(3, 0, 2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(3, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(3, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(3, 0, 5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(3, 0, 6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(3, 0, 7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(3, 0, 8)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(3, 0, 9)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(3, 0, 10)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(3, 0, 11)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(3, 0, 12)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(3, 0, 13)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(3, 0, 14)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(3, 0, 15)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(4, 0, -15)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(4, 0, -14)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(4, 0, -13)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(4, 0, -12)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(4, 0, -11)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(4, 0, -10)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(4, 0, -9)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(4, 0, -8)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(4, 0, -7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(4, 0, -6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(4, 0, -5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(4, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(4, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(4, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(4, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(4, 0, 0)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(4, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(4, 0, 2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(4, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(4, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(4, 0, 5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(4, 0, 6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(4, 0, 7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(4, 0, 8)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(4, 0, 9)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(4, 0, 10)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(4, 0, 11)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(4, 0, 12)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(4, 0, 13)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(4, 0, 14)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(4, 0, 15)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(5, 0, -15)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(5, 0, -14)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(5, 0, -11)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(5, 0, -10)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(5, 0, -9)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(5, 0, -8)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(5, 0, -7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(5, 0, -6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(5, 0, -5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(5, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(5, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(5, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(5, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(5, 0, 0)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(5, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(5, 0, 2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(5, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(5, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(5, 0, 5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(5, 0, 6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(5, 0, 7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(5, 0, 8)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(5, 0, 9)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(5, 0, 10)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(5, 0, 11)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(5, 0, 12)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(5, 0, 13)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(5, 0, 16)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(6, 0, -15)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(6, 0, -13)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(6, 0, -12)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(6, 0, -11)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(6, 0, -10)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(6, 0, -9)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(6, 0, -8)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(6, 0, -7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(6, 0, -6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(6, 0, -5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(6, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(6, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(6, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(6, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(6, 0, 0)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(6, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(6, 0, 2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(6, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(6, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(6, 0, 5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(6, 0, 6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(6, 0, 7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(6, 0, 8)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(6, 0, 9)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(6, 0, 10)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(6, 0, 11)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(6, 0, 12)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(6, 0, 13)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(6, 0, 14)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(6, 0, 15)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(6, 0, 16)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(7, 0, -13)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(7, 0, -12)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(7, 0, -11)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(7, 0, -10)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(7, 0, -9)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(7, 0, -8)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(7, 0, -7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(7, 0, -6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(7, 0, -5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(7, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(7, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(7, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(7, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(7, 0, 0)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(7, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(7, 0, 2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(7, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(7, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(7, 0, 5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(7, 0, 6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(7, 0, 7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(7, 0, 8)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(7, 0, 9)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(7, 0, 10)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(7, 0, 11)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(7, 0, 12)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(7, 0, 13)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(7, 0, 14)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(7, 0, 15)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(7, 0, 16)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(8, 0, -13)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(8, 0, -12)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(8, 0, -11)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(8, 0, -10)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(8, 0, -9)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(8, 0, -8)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(8, 0, -7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(8, 0, -6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(8, 0, -5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(8, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(8, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(8, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(8, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(8, 0, 0)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(8, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Pool</TerrainDef>
+				<Position>(8, 0, 2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(8, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(8, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(8, 0, 5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(8, 0, 6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(8, 0, 7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(8, 0, 8)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(8, 0, 9)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(8, 0, 10)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(8, 0, 11)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(8, 0, 12)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(8, 0, 13)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(8, 0, 14)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(8, 0, 15)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(8, 0, 16)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(9, 0, -13)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(9, 0, -12)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(9, 0, -11)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(9, 0, -10)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(9, 0, -9)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(9, 0, -8)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(9, 0, -7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(9, 0, -6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(9, 0, -5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(9, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(9, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(9, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(9, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(9, 0, 0)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(9, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(9, 0, 2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(9, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(9, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(9, 0, 5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(9, 0, 6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(9, 0, 7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(9, 0, 8)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(9, 0, 9)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(9, 0, 10)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(9, 0, 11)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(9, 0, 12)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(9, 0, 13)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(9, 0, 14)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(9, 0, 15)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(10, 0, -13)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(10, 0, -12)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(10, 0, -11)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(10, 0, -10)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(10, 0, -9)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(10, 0, -8)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(10, 0, -7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(10, 0, -6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(10, 0, -5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(10, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(10, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(10, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(10, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(10, 0, 0)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(10, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(10, 0, 2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(10, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(10, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(10, 0, 5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(10, 0, 6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(10, 0, 7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(10, 0, 8)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(10, 0, 9)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(10, 0, 10)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(10, 0, 11)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(10, 0, 12)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(10, 0, 13)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(10, 0, 14)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(10, 0, 15)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(11, 0, -10)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(11, 0, -9)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(11, 0, -8)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(11, 0, -7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(11, 0, -6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(11, 0, -5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(11, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(11, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(11, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(11, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(11, 0, 0)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(11, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(11, 0, 2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(11, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(11, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(11, 0, 5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(11, 0, 6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(11, 0, 7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(11, 0, 8)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(11, 0, 9)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(11, 0, 10)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(11, 0, 11)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(11, 0, 12)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(11, 0, 13)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(11, 0, 14)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(12, 0, -10)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(12, 0, -9)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(12, 0, -8)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(12, 0, -7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(12, 0, -6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(12, 0, -5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(12, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(12, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(12, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(12, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(12, 0, 0)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(12, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(12, 0, 2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(12, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(12, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(12, 0, 5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(12, 0, 6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(12, 0, 7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(12, 0, 8)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(12, 0, 9)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(12, 0, 10)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(12, 0, 11)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(12, 0, 12)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(12, 0, 13)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(13, 0, -10)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(13, 0, -9)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(13, 0, -8)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(13, 0, -7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(13, 0, -6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(13, 0, -5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(13, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(13, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(13, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(13, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(13, 0, 0)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(13, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(13, 0, 2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(13, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(13, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(13, 0, 5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(13, 0, 6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(13, 0, 7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(13, 0, 8)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(13, 0, 9)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(13, 0, 10)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(13, 0, 11)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(13, 0, 12)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(14, 0, -11)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(14, 0, -10)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(14, 0, -9)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(14, 0, -8)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(14, 0, -7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(14, 0, -6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(14, 0, -5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>WoodPlankFloor</TerrainDef>
+				<Position>(14, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(14, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(14, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(14, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(14, 0, 0)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(14, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(14, 0, 2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(14, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(14, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(14, 0, 5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(14, 0, 6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(14, 0, 7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(14, 0, 8)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(14, 0, 9)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(14, 0, 10)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(14, 0, 11)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(15, 0, -12)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(15, 0, -11)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(15, 0, -10)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(15, 0, -9)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(15, 0, -8)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(15, 0, -7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(15, 0, -6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(15, 0, -5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(15, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(15, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(15, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(15, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(15, 0, 0)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(15, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(15, 0, 2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(15, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(15, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(15, 0, 5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(15, 0, 6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(15, 0, 7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(15, 0, 8)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(15, 0, 9)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(15, 0, 10)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(15, 0, 11)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(16, 0, -12)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(16, 0, -11)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(16, 0, -9)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(16, 0, -8)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(16, 0, -7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(16, 0, -6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(16, 0, -5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(16, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(16, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(16, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(16, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(16, 0, 0)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(16, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(16, 0, 2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(16, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(16, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(16, 0, 5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(16, 0, 6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(16, 0, 7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(16, 0, 8)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(16, 0, 9)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(16, 0, 10)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(17, 0, -8)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(17, 0, -7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(17, 0, -6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(17, 0, -5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(17, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(17, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(17, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(17, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(17, 0, 0)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(17, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(17, 0, 2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(17, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(17, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(17, 0, 5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(17, 0, 6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(17, 0, 7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(17, 0, 8)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(17, 0, 9)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(17, 0, 10)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(18, 0, -6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(18, 0, -5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(18, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(18, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(18, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(18, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(18, 0, 0)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(18, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(18, 0, 2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(18, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(18, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(18, 0, 5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(18, 0, 6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(18, 0, 7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(19, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(19, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(19, 0, 0)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(19, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(19, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(19, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(19, 0, 5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(19, 0, 6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(19, 0, 7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(20, 0, 2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(20, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(20, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(21, 0, 5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(21, 0, 6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(21, 0, 7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>AP_Lawn</TerrainDef>
+				<Position>(23, 0, 10)</Position>
+				<Rotation>200</Rotation>
+			</li>
+		</BuildableThings>
+		<Name>TribalMeadow1</Name>
+		<Size>(47, 35)</Size>
+	</Blueprint>
+</Blueprint>
